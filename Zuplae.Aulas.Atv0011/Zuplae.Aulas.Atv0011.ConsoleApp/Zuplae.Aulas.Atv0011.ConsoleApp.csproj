@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zuplae.Aulas.Atv0011.Models\Zuplae.Aulas.Atv0011.Models.csproj">
+      <Project>{74a5a63e-c557-45d7-8129-adf71a5ef050}</Project>
+      <Name>Zuplae.Aulas.Atv0011.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
