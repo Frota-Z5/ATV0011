@@ -26,7 +26,7 @@ namespace Zuplae.Aulas.Atv0011.Models
 
         public override string ToString()
         {
-            return $"Título: {titulo}, Gênero: {genero}, Ano de Lançamento: {anoLancamento}, Diretor: {diretor}";
+            return $" {titulo}, Gênero: {genero}, Ano de Lançamento: {anoLancamento}, Diretor: {diretor}";
         }
 
 

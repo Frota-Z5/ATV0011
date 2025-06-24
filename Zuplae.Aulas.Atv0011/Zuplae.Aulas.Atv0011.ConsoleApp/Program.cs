@@ -23,9 +23,9 @@ namespace Zuplae.Aulas.Atv0011.ConsoleApp
             Atores ator3 = new Atores("Tom Hanks", 67, "Americano", filme3);
 
             Console.WriteLine("--------------- ATV0011 ---------------------\n");
-            Console.WriteLine($"{ator}  {filme}\n");
-            Console.WriteLine($"{ator2}  {filme2}\n");
-            Console.WriteLine($"{ator3}  {filme3}");
+            Console.WriteLine($"{ator}\n");
+            Console.WriteLine($"{ator2}\n");
+            Console.WriteLine($"{ator3} ");
 
 
 
