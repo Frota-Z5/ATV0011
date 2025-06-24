@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Zuplae.Aulas.Atv0011.Models
 {
-    internal class Atores
+    public class Atores
     {
         public string nome;
         public int idade;
         public string nacionalidade;
         public Filme filme;
+
+        public Atores() { }
 
         public Atores(string nome, int idade, string nacionalidade, Filme filme)
         {
